@@ -17,6 +17,10 @@
 #include "shiftregister.h"
 #include "led_panel.h"
 #define rule ^
+//clock pin PB2 Arduino Pin(10)
+//latch pin  PB3 Arduino Pin(11)
+//data pin  PB4 Arduino Pin(12)
+//row(1-6) pin (PD2-PD7) Arduino Pin(2-7)
 
 volatile uint8_t current,next,test;
 
